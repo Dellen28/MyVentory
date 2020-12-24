@@ -5,17 +5,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.admin.augscan.MainActivity"
-    android:background="@drawable/backgroundgradient">
+    android:layout_gravity="center"
+    tools:context="com.example.admin.myventory.MainActivity"
+    android:background="@drawable/bg_menu2">
 
-    <ImageView
-        android:id="@+id/logo"
-        android:src="@drawable/logo"
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="527dp"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="344dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-98dp"
+            app:srcCompat="@drawable/myventory" />
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -6,30 +6,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".RegisterActivity"
-    android:background="@drawable/gradient">
+    android:background="@drawable/bg_menu3">
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="236dp"
-        android:layout_height="190dp"
+        android:layout_width="357dp"
+        android:layout_height="347dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="2dp"
         app:srcCompat="@drawable/inventory" />
 
-    <TextView
+    <ImageView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="290dp"
+        android:layout_height="119dp"
         android:layout_alignBottom="@+id/imageView3"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="-90dp"
-        android:fontFamily="@font/allura"
-        android:text="augScan"
-        android:textColor="#C1F8B0B0"
-        android:textSize="55dp"
-        android:textStyle="bold" />
+        android:layout_marginBottom="-18dp"
+        android:src="@drawable/myventory" />
 
     <EditText
         android:id="@+id/emailRegister"
@@ -37,14 +32,14 @@
         android:layout_height="40dp"
         android:layout_alignBottom="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="-65dp"
+        android:layout_marginBottom="-20dp"
         android:background="#11000000"
         android:drawableLeft="@drawable/ic_account_user"
         android:ems="10"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:hint="Email"
         android:inputType="textPersonName"
-        android:textColorHint="#ffff"
+        android:textColorHint="#000"
         android:textSize="16dp" />
 
     <EditText
@@ -56,9 +51,9 @@
         android:layout_marginTop="22dp"
         android:layout_marginBottom="-50dp"
         android:background="#11000000"
-        android:textColorHint="#ffff"
+        android:textColorHint="#000"
         android:ems="10"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:hint="Password"
         android:drawableLeft="@drawable/ic_password"
         android:inputType="textPassword" />
@@ -72,9 +67,9 @@
         android:layout_marginTop="22dp"
         android:layout_marginBottom="-50dp"
         android:background="#11000000"
-        android:textColorHint="#ffff"
+        android:textColorHint="#000"
         android:ems="10"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:hint="Confirm Password"
         android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
         android:inputType="textPassword" />
@@ -90,23 +85,22 @@
         android:background="#11000000"
         android:hint="Department Name"
         android:inputType="textPersonName"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:textSize="18dp"
         android:drawableLeft="@drawable/ic_forum_black_24dp"
-        android:textColorHint="#ffff"/>
+        android:textColorHint="#000"/>
 
     <Button
         android:id="@+id/button_register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="134dp"
+        android:layout_height="37dp"
         android:layout_alignBottom="@+id/departmentName"
         android:layout_centerInParent="true"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="-81dp"
-        android:background="#172196F3"
-
+        android:layout_marginBottom="-70dp"
+        android:background="@drawable/button"
         android:text="Sign Up"
-        android:textColor="#FFFF"
+        android:textColor="#fff"
         android:textSize="20dp" />
 
     <ProgressBar

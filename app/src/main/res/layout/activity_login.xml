@@ -5,31 +5,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
+    android:background="@drawable/bg_menu3"
     tools:context=".MainActivity"
     android:orientation="vertical" >
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="252dp"
-        android:layout_height="218dp"
+        android:layout_width="match_parent"
+        android:layout_height="347dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="28dp"
         app:srcCompat="@drawable/inventory" />
 
-    <TextView
+    <ImageView
         android:id="@+id/textView"
-        android:layout_width="202dp"
-        android:layout_height="wrap_content"
+        android:layout_width="290dp"
+        android:layout_height="119dp"
         android:layout_alignBottom="@+id/imageView3"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="-88dp"
-        android:fontFamily="@font/allura"
-        android:text="augScan"
-        android:textColor="#C1F8B0B0"
-        android:textSize="53dp"
-        android:textStyle="bold" />
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="-18dp"
+        android:src="@drawable/myventory" />
 
     <EditText
         android:id="@+id/emailSignIn"
@@ -37,14 +34,14 @@
         android:layout_height="40dp"
         android:layout_alignBottom="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="-65dp"
+        android:layout_marginBottom="-50dp"
         android:background="#11000000"
         android:drawableLeft="@drawable/ic_account_user"
         android:ems="10"
         android:hint="User Name"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:inputType="textPersonName"
-        android:textColorHint="#ffff"
+        android:textColorHint="#000"
         android:textSize="16dp" />
 
     <EditText
@@ -56,8 +53,8 @@
         android:layout_marginTop="22dp"
         android:layout_marginBottom="-50dp"
         android:background="#11000000"
-        android:textColorHint="#ffff"
-        android:textColor="#fff"
+        android:textColorHint="#000"
+        android:textColor="#000"
         android:ems="10"
         android:hint="Password"
         android:password="true"
@@ -67,15 +64,16 @@
 
     <Button
         android:id="@+id/Login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
         android:layout_alignBottom="@+id/password"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="-94dp"
-        android:background="#172196F3"
+        android:layout_marginBottom="-74dp"
+        android:background="@drawable/button"
         android:text="Login"
-        android:textColor="#FFFF"
-        android:textSize="20dp" />
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/forgotpassword"
@@ -83,9 +81,9 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/Login"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="-38dp"
-        android:textColor="#FFF"
-        android:text="Forgot Password ?"
+        android:layout_marginBottom="-50dp"
+        android:textColor="#000"
+        android:text="Lupa Password ?"
         android:clickable="true"/>
     <ProgressBar
         android:id="@+id/progressbars"
