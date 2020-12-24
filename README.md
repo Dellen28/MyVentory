@@ -1,5 +1,5 @@
 # Myventory
 
-Aplikasi scan item dan menyimpan data barang
+Aplikasi scan item dan menyimpan data barang dengan database di firebase
 
 
