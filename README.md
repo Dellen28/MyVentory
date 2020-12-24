@@ -1,5 +1,5 @@
 # Myventory
 
-Aplikasi scan item
+Aplikasi scan item dan menyimpan data barang
 
 
